@@ -12,7 +12,7 @@
       <div class="row justify-content-center">  
         {{ range .Site.Menus.primary.ByWeight }}
         <div>
-            <a class="nav-link{{ if .Identifier }} text-{{ .Identifier }}{{ end }}" href="{{ .URL }}">
+            <a style="color: rgba(36,31,71,0.8);" class="nav-link{{ if .Identifier }} text-{{ .Identifier }}{{ end }}" href="{{ .URL }}">
                 {{ .Pre }}
                 {{ .Name }}
             </a>
@@ -21,3 +21,20 @@
       </div>
   </div>
 </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.18.0/inter.css" integrity="sha512-2ScEqx8oE365TaMpvEhzeFgNndX303Y62SJfTqJ7xeBUS7FV86//D1MAKOjCglApnQMteDSQzn+HqYFIFeNJrw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    body {
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        color: rgb(26, 32, 44);
+        background: rgb(255, 255, 255);
+        transition: background-color 0.2s ease 0s;
+        line-height: 1.5;
+    }
+
+    .content .markdown {
+        font-weight: 400;
+        font-size: 1.1rem;
+        color: rgb(26, 32, 44);
+        line-height: 1.5rem;
+    }
+</style>
