@@ -1,7 +1,7 @@
 ---
 title: "Point Nine Jumps on the Ship"
 date: 2021-05-31T11:45:38+02:00
-draft: true
+draft: false
 ---
 
 Startup founders are a bunch of pirates trying to do something in a better way.

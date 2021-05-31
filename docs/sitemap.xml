@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.june.so/categories/</loc>
+    <loc>https://blog.june.so/</loc>
+    <lastmod>2021-05-31T11:45:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.june.so/</loc>
+    <loc>https://blog.june.so/posts/point-nine-jumps-on-the-ship/</loc>
+    <lastmod>2021-05-31T11:45:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.june.so/posts/</loc>
+    <lastmod>2021-05-31T11:45:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.june.so/categories/</loc>
   </url>
   
   <url>
