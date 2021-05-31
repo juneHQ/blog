@@ -1,0 +1,23 @@
+
+<div class="my-4 header mx-4">
+  <div class="d-flex flex-sm-row flex-column justify-content-between align-items-center">
+      <div class="row justify-content-center">
+          <div class="col-auto">
+              <a href="{{ .Site.BaseURL }}">
+                  <h1 class="name" style="font-size: 1.25rem;">{{ .Site.Params.sitename }}</h1>
+              </a>
+          </div>
+      </div>
+
+      <div class="row justify-content-center">  
+        {{ range .Site.Menus.primary.ByWeight }}
+        <div>
+            <a class="nav-link{{ if .Identifier }} text-{{ .Identifier }}{{ end }}" href="{{ .URL }}">
+                {{ .Pre }}
+                {{ .Name }}
+            </a>
+        </div>
+        {{ end }}
+      </div>
+  </div>
+</div>
