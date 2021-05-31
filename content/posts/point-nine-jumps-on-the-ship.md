@@ -38,7 +38,7 @@ Speak soon
 
 \- Enzo & Ferruccio
 
-**We’re looking for two founding engineers. If you’re ready for an adventure, [join us](https://www.notion.so/projectanalytics/Founding-Team-Engineer-339274009f594b58aff3d4bfd8e3f93e)!**
+**\* We’re looking for two founding engineers. If you’re ready for an adventure, [join us](https://www.notion.so/projectanalytics/Founding-Team-Engineer-339274009f594b58aff3d4bfd8e3f93e)!**
 
 <style>
 .img > p > img {
