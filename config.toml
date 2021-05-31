@@ -1,4 +1,4 @@
-baseurl = "https://blog.june.so"
+baseurl = "https://blog.june.so/"
 title = "June Analytics Blog"
 author = "Ferruccio Balestreri"
 canonifyurls = true
